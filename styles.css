@@ -1,0 +1,181 @@
+/* Styles General */
+
+*{
+
+    margin: 0;
+    padding: 0;
+
+    font-family: comfortaa;
+    font-size: 10pt;
+
+}
+
+/* Styles Login and Register */
+
+main{
+
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(/assets/images/loginBackground.png);
+
+}
+
+section{
+
+    padding: 40px;
+
+    width: 20%;
+    min-height: 400px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-evenly;
+
+    background-color: white;
+
+}
+
+.logo{
+
+    width: 150px;
+    height: 150px;
+
+    background-image: url(/assets/images/logo.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+section > h1,h2{
+
+    font-family: 'Bebas Neue';
+    font-weight: lighter;
+
+    color: #011627ff;
+
+}
+
+section > h1{
+
+    font-size: 25pt;    
+
+}
+
+section > h2{
+
+    font-size: 30pt;
+
+}
+
+form{
+
+    margin: 20px 0;
+
+    width: 95%;
+    min-height: 100px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+form > input{
+
+    padding: 8px;
+    margin-bottom: 10px;
+
+    width: 90%;
+    height: 20px;
+
+    font-family: Comfortaa;
+
+}
+
+form > label{
+
+    margin-top: 10px;
+
+    width: 95%;
+
+    font-family: Comfortaa;
+    font-size: 10pt;
+
+}
+
+form > button{
+
+    margin-top: 20px;
+
+    width: 80%;
+    height: 40px;
+
+    font-family: 'Bebas Neue';
+    font-size: 20pt;
+
+    color: #011627ff;
+
+    border: none;
+    border-radius: 10px;
+    
+    background-color: #8dd35fff;
+
+}
+
+form > button:hover{
+
+    background-color: #011627ff;
+
+    color: #8dd35fff;
+
+}
+
+section > p{
+
+    margin-bottom: 10px;
+
+}
+
+section a{
+
+    color: #0682efff;
+
+}
+
+/* Styles Privacy Policy */
+
+.privacyH1{
+
+    width: 80%;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+
+    font-family: 'Bebas Neue';
+    font-size: 50pt;
+
+    color: #011627ff;
+
+    text-align: center;
+
+}
+
+.privacyA{
+
+    font-size: 15pt;
+
+}
